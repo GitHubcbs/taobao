@@ -1,0 +1,242 @@
+body{
+	background-color: #f2f3f4;
+}
+
+.in_laout{
+    width: 100%;
+    height: 100%;
+    margin:0 auto;   
+    min-width:320px;
+    
+}
+.in_banner{
+	width: 100%;
+	max-height: 70px;
+	overflow: hidden;
+}
+.in_banner a{
+	width: 100%;
+}
+.in_banner a img{
+	width: 100%;
+	height: auto;
+    min-height: 70px;
+}
+
+.in_main{
+	width: 100%;
+	background: white;
+}
+.in_main .in_mian_tabview{
+	width: 100%;
+}
+.in_mian_tabview ul{
+	width: 100%;
+	height: 48px;
+	line-height: 48px;
+	color: #3d3d3d;
+	font-weight: 700;
+	position: relative;
+}
+.in_mian_tabview ul li{
+	float: left;
+	width: 33.3%;
+	text-align: center;
+	border-bottom: solid #f2f3f4;
+	position: relative;
+}
+.in_mian_tabview .main_line{
+	position: absolute;
+	width: 40px;
+    height: 3px;
+    background: #ffc900;
+    bottom: 0;
+    left: 50%;
+    margin-left: -20px;
+    display: block;
+}
+.main_panel{
+	width: 100%;
+	padding: 0 15px;
+}
+.main_panel .main_panel_tips{
+	width: 100%;
+	line-height: 18px;
+	color: #e90;
+	background-color: #fff7d6;
+	font-size: 12px;
+    padding: 6px 12px;
+} 
+.main_panel .main_panel_tips p{
+	
+}
+.main_panel .main_luxian{
+	width: 100%;
+	height: 50px;
+    font-size: 18px;
+    display: flex;
+}
+.main_luxian .luxian_stat{
+	/*width: 48%;*/
+	text-align: left;
+	float: left;
+	height: 100%;
+    line-height: 50px;
+    flex: 1;
+    border-bottom: 0.5px solid #e0e0e0;
+}
+.main_luxian .luxian_icon{
+    width: 54px;
+	float: left;
+	background: url(../img/in_jiantou.png) 50% no-repeat;
+	height: 100%;
+	background-size: 27px;
+	
+}
+.main_luxian .luxian_stop{
+	/*width: 48%;*/
+	float: left;
+	text-align: right;
+	height: 100%;
+    line-height: 50px;
+	flex: 1;
+	border-bottom: 0.5px solid #e0e0e0;
+}
+.main_data{
+	width: 100%;
+	height: 50px;
+    font-size: 18px;
+    position: relative;
+    border-bottom: 0.5px solid #e0e0e0;
+}
+.main_data_taday{
+	height: 100%;
+	line-height: 50px;
+	float: left;
+	
+}
+.main_data_tom{
+	height: 100%;
+	line-height: 50px;
+	font-size: 12px;
+    color: #ccc;
+    margin-left: 5px;
+    float: left;
+}
+.main_data i,.fz_jipiao_de i{
+	position: absolute;
+	background: url(../img/in_y.png) no-repeat;
+	width: 13px;
+	height: 14px;
+	right: 0;
+	top: 50%;
+	margin-top: -7px;
+	background-size: 8px;
+}
+.main_years{
+	width: 100%;
+	 font-size: 18px;	
+	 border-bottom: 0.5px solid #e0e0e0;
+}
+.main_years_chi{
+	height: 50px;
+	float: left;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;	
+}
+.main_years_bady{
+	height: 50px;
+	float: right;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.years_input{
+	width: 27px;
+	height: 27px;
+	padding-top: 6px;
+	border: 1px solid #e1e1e1;
+	display: inline-block;
+	}
+.years_ren{
+	line-height: 50px;
+	margin: 0px 5px;
+}
+.years_sui{
+	line-height: 50px;
+	font-size: 12px;
+    color: #ccc;
+}
+
+.main_search{
+	padding: 20px 15px;
+	width: 100%;
+	background: white;
+}
+.main_search button{
+	width: 100%;
+	height: 42px;
+	line-height: 42px;
+	border-radius: 3px;
+    background: #ff5000;
+    background-image: linear-gradient(90deg,#ff9300,#f35);
+    font-size: 18px;
+    color: white;
+}
+
+
+.fz_jipiao{
+	width: 100%;
+	padding-right: 10px;
+	margin-top: 10px;
+		background: white;
+}
+.fz_jipiao a{
+	width: 100%;
+}
+.fz_jipiao_ji{
+	height: 50px;
+	position: relative;
+	float: left;
+}
+.fz_jipiao_ji .jipao_pa{
+	line-height: 50px;
+	font-size: 16px;
+	padding-left: 40px;
+	
+}
+.fz_jipiao_ji .jipao_icon{
+	width: 32px;
+	height: 36px;;
+	position: absolute;
+	background: url(../img/in_fir.png) no-repeat;
+	background-size: 16px 18px;
+	top: 17px;
+	left: 13px;
+}
+.fz_jipiao_de{
+	height: 50px;
+	line-height: 50px;
+	float: right;
+	position: relative;
+	padding-right: 20px;
+	
+}
+.fz_jipiao_de span{
+	
+	font-size: 12px;
+	line-height: 50px;
+	color: #999;
+	float: left;
+}
+.fz_jipiao_de span.col_orge{
+	color: #ff5000;;
+}
+.fz_logo{
+	height: 100px;
+	width: 100%;
+	background: url(../img/in_logo.png) no-repeat center center;
+	background-size: auto 50px;
+	text-align: center;
+}

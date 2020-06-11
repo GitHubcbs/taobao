@@ -1,0 +1,230 @@
+body{
+    background:#f5f5f5;
+    height: 3000px;
+}
+.layout{
+    width: 100%;
+    margin:0 auto;
+    max-width:640px;
+    min-width:400px;
+    overflow:hidden;
+}
+.header{
+    width:100%;
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: 2;
+}
+.header_box{
+    width: 100%;
+    height: 55px;
+    max-width: 640px;
+    min-width: 400px;
+    margin:0 auto;
+    background:#1B191A;
+    position: relative;
+}
+.header_box form{
+    width:100%;
+    padding-left:10px;
+    padding-right:10px;
+    position: relative;
+}
+.header_box form input{
+    height: 40px;
+    width:100%;
+    margin-top:7px;
+    border-radius:20px;
+    background:#fff;
+    padding-left:50px;
+    font-size: 16px;
+    color: darkgray;
+}
+
+.icon_a{
+	z-index: 1;
+	position: absolute;
+	width: 28px;
+	height: 28px;
+	left: 30px;
+	top: 16px;
+	background-position: 0px 0px;
+	background-origin: content-box;
+    background-clip:content-box;
+}
+/*轮播图*/
+.lunbo{
+	margin-top: 55px;
+	width:100%;
+	overflow: hidden;
+	position: relative;
+}
+.lunbo .lunbo_pic{
+	width: 100%;
+}
+.lunbo .lunbo_pic a{
+	display: block;
+	width: 100%;
+}
+.lunbo .lunbo_pic a img{
+	width: 100%;
+}
+.lunbo .lunbo_dot{
+	position: absolute;
+	top: 80%;
+	left: 45%;
+}
+
+.lunbo .lunbo_dot div{
+	border-radius: 4px;
+	margin: 10px;
+	width: 8px;
+	height: 8px;
+	background: aliceblue;
+	float: left;
+	
+}
+
+
+/*列表*/
+.list{
+	width: 100%;
+	background: #FFFFFF;
+}
+.list a{
+	padding: 5px 0;
+	display: block;
+	float: left;
+	width: 20%;
+	text-align: center;
+
+}
+.list a img{
+	width: 60%;
+	display: block;
+	margin: 0 auto;
+}
+.list a span{
+	line-height: 35px;
+}
+
+/*讯息*/
+.message{
+	width: 100%;
+	background: #FFFFFF;
+}
+.message span{
+	float:left;
+}
+.message .font{
+	font-size: 18px;
+	width: 20%;
+	text-align: center;
+}
+.message .content{
+	color: darkgray;
+	width: 70%;
+	padding-top: 4px;
+	text-align:left;
+}
+.message a{
+	float: left;
+	display: block;
+	text-align: center;
+	width: 10%;
+}
+
+/*列表2*/
+.list2{
+	margin-top: 10px;
+	width: 410%;
+}
+.list2 a{
+	background: #FFFFFF;
+	margin-left: 2px;
+	margin-bottom: 2px;
+	padding: 5px 0;
+	display: block;
+	float: left;
+	width: 5%;
+	text-align: center;
+
+}
+.list2 a img{
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+}
+.list2 a span{
+	line-height: 35px;
+}
+
+/*列表3*/
+.list3{
+	margin-top: 8px;
+	width: 100%;
+}
+.list3 .yiyuan a{
+	background: #FFFFFF;
+	padding: 5px 0;
+	display: block;
+	float: left;
+	width: 33%;
+}
+
+.list3 .yiyuan a img{
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+}
+.list3 .yiyuan a span:nth-child(1){
+	display: block;
+	line-height: 20px;
+	font-size: 20px;
+	width: 100%;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+.list3 .yiyuan a span:nth-child(2){
+	display: block;
+	line-height: 20px;
+	width: 100%;
+	color: darkgray;
+	padding-left: 10px;
+}
+.list3 .yiyuan a:nth-child(2){
+	margin-right: 2px;
+}
+.list3 .yiyuan a:nth-child(2) img{
+	margin-top: 5px;
+	width: 69%;
+}
+
+
+.list3 .zhuanqu a{
+	background: #FFFFFF;
+	display: block;
+	float: left;
+	width:24.6%;
+	text-align: center;
+
+}
+.list3 .zhuanqu{
+	margin-top: 2px;
+}
+.list3 .zhuanqu a{
+	margin-right: 1px;
+}
+.list3 .zhuanqu a img{
+	width: 50%;
+	display: block;
+	margin: 0 auto;
+}
+.list3 .zhuanqu a span{
+	display: block;
+	line-height: 35px;
+	font-size: 20px;
+	font-weight: bolder;
+	padding: 10px 10px;
+}

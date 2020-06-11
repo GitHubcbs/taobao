@@ -1,0 +1,54 @@
+html,body,div,span,input,ul,li,h1,h2,h3,h4,h5,h6,a,img,form,button,textarea{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "宋体";
+    font-size:12px;
+    color:#666;
+    background:#F4F4F4;
+}
+i,s,b,u{
+    font-size:12px;
+    text-decoration: none;
+    font-weight: normal;
+    font-style:normal;
+}
+img{
+    border:0;
+    display: block;
+}
+input,button,form,textarea{
+    border:none;
+    outline-style:none;
+    resize:none;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#666;
+}
+a:hover{
+    color:#c81623;
+}
+.col-red{
+    color:#c81623 !important;
+}
+.clearfix::before,.clearfix::after{
+    content:'';
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+.clearfix{
+    zoom:1;
+}
+.nav-l{
+    float: left;
+}
+.nav-r{
+    float: right;
+}

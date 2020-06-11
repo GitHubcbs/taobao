@@ -1,0 +1,224 @@
+html,body{
+	height: 100%;
+}
+a{
+	font-size:40px;
+}
+.heander{
+	width: 100%;
+	height: 410px;
+	background-color: Tomato;
+}
+.heander_top{
+	width: 100%;
+	height: 230px;
+}
+.heander_top ul{
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+}
+.heander_top ul li{
+	margin-top: 20px;
+	width: 100%;
+	display: block;
+	padding-top: 50px;
+}
+.heander_top a{
+	display: block;
+	font-size: 55px;
+	color: #ffffff;
+	font-weight:800;
+	padding-left: 180px;
+	padding-bottom: 50px;
+}
+.heander_top .i_1{
+	position: absolute;
+	width: 130px;
+	height: 130px;
+	border-radius: 130px;
+	overflow: hidden;
+	left: 20px;
+	bottom: -30px;
+	
+}
+.heander_top .i_2{
+	position: absolute;
+	bottom: -30px;
+	left: 180px;
+}
+.heander_top .i_3{
+	position: absolute;
+	top: -80px;
+	right: -170px;
+}
+.heander_top .i_4{
+	top: -80px;
+	position: absolute;
+	right: -280px;
+}
+.heander_bottom{
+	width: 100%;
+}
+.heander_bottom ul{
+	margin-left: 25px;
+}
+.heander_bottom li{
+	width: 27%;
+	display: block;
+	float: left;
+}
+.heander_bottom li a{
+	font-weight: 500px;
+	font-size: 30px;
+	color: #ffffff;
+	display: block;
+	font-family: "微软雅黑";
+	padding-bottom: 20px;
+	text-align: center;
+}
+/*header结束*/
+.main{
+	width: 100%;
+	height: 1380px;
+	background: #F5F5F5;
+}
+.tb_dd{
+	width: 100%;
+	height: 330px;
+	border: 1px solid Gainsboro;
+}
+.tb_dd div{
+	height: 90%;
+	width: 93%;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	border-radius: 30px;
+}
+.tb_dd div li{
+	padding: 25px;
+	height: 50%;
+}
+.td_bt{
+	float: left;
+	
+}
+.td_bt2{
+	float: right;
+}
+
+.tb_dd div ul{
+	height: 50%;
+	width: 100%;
+	margin: 0 auto;
+}
+.tb_dd div ul li{
+	width: 19%;
+	display: block;
+	padding-top:80px; 
+	float: left;
+	text-align: center;
+	position: relative;
+}
+.tb_dd div ul li a{
+	display: block;
+	font-size: 30px;
+}
+.tb_dd .tb_dd_i{
+	left: 45px;
+	position: absolute;
+	top: -20px;
+}
+.tb_logo{
+	width: 100%;
+	height: 250px;
+		border: 1px solid 	Gainsboro;
+}
+.tb_logo div{
+	height: 90%;
+	width: 93%;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	border-radius: 30px;
+	overflow: hidden;
+}
+.tb_logo div img{
+	padding:10px 0;
+	width: 100%;	
+	height: 100%;
+}
+.main_gj{
+	width: 100%;
+	height: 500px;
+	border: 1px solid Gainsboro;
+}
+.gj_bj{
+	height: 94%;
+	width: 93%;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	border-radius: 30px;
+}
+.gj_bj li{
+	padding: 25px;
+	height: 20%;
+}
+.gj_bj ul{
+	height: 80%;
+	width: 100%;
+	margin: 0 auto;
+}
+.gj_bj ul li{
+	width: 25%;
+	display: block;
+	float: left;
+	position: relative;
+	padding-top: 140px;
+	text-align: center;
+}
+.gj_bj ul li a{
+	display: block;
+	font-size: 30px;
+	
+}
+
+.tb_dd_i{
+	position: absolute;
+	top: 30px;
+	left: 70px;
+}
+
+.footer-all{
+	width:100%;
+    position: fixed;
+    bottom:0;
+    left:0;
+}
+.footer{
+	width: 100%;
+    height: 100px;
+    margin:0 auto;
+    background:#ffffff;
+}
+.footer ul{
+	height: 100%;
+}
+.footer ul li{
+	width: 20%;
+	display: block;
+	float: left;
+	position: relative;
+	padding-top: 90px;
+	text-align: center;
+	padding-bottom: 15px;
+}
+.footer ul li a{
+	display: block;
+	font-size: 30px;
+	
+}
+.footer ul li i{
+	position: absolute;
+	top: 0;
+	left: 55px;
+}
